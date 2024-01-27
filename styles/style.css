@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, .header {
+    background: linear-gradient(27deg, #26c2334d, #a1141443);
+    color: #0A0A23;
+
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+
+    padding: 5px;
+    border-bottom: 2px solid #0a0a23;
+}
+
+.header {
+  background: linear-gradient(130deg, #0c64fc71, #e50a0aa3);
+  color: black;
+}
+.main-content {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 1000px;
+}
+
+footer {
+    text-align: center;
+    padding: 0 5px;
+    background-color: #33333396;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.para{
+  padding-bottom: 10px;
+}
+
+.logo {
+  max-width: 30px;
+  border-radius: 50%;
+  height: 30px;
+}
+
+.logo-img {
+  width: 100px;
+  margin-bottom: 0;
+
+  border-radius: 4PX;
+}
+
+.subject-button {
+  display: relative;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.add-button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+}
+
+.study-photo {
+  width: 100%;
+  display: block;
+  margin: 10px auto 0;
+}
+
+span {
+  color: darkcyan ;
+}
+
+.container-img {
+  position: relative;
+}
+
+.container-img .text-block {
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: rgb(255, 255, 255);
+  padding: 50px;
+  font-size: 16px;
+}
+
+.loader {
+  border: 20px solid #f4f4f4;
+  border-top: 25px solid #e50a0aa3;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: matrix(360deg);
+  }
+}
+
+sup {
+  font-size: 30px;
+}
+
