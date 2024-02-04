@@ -1,23 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  
-}
+
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height: 100vh;
 }
 
-header, .header {
+
+.header {
     background: linear-gradient(27deg, #26c2334d, #a1141443);
     color: #0A0A23;
+    width: 100%;
 
     text-align: center;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 20px;
 
     padding: 5px;
     border-bottom: 2px solid #0a0a23;
@@ -29,11 +28,12 @@ header, .header {
 }
 .main-content {
     max-width: 1100px;
-    margin: 20px auto;
-    padding: 20px;
+    
+    margin: 20px auto 0;
+    padding: 40px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding-bottom: 1000px;
+    
 }
 
 footer {
@@ -67,7 +67,7 @@ footer {
   margin-right: 5px;
   margin-top: 2px;
   margin-bottom: 0;
-  padding: 5px;
+  padding: 3px;
 }
 
 button {
@@ -116,6 +116,7 @@ span {
 .container-img .text-block {
   position: absolute;
   bottom: 50px;
+  
   right: 30px;
   background-color: rgba(0, 0, 0, 0.582);
   color: rgb(255, 255, 255);
@@ -130,14 +131,18 @@ span {
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
+  overflow: hidden;
 }
 
 @keyframes spin{
   0% {
     transform: rotate(0deg);
-  }
+  
+  }  
+  
   100% {
-    transform: matrix(360deg);
+    transform: rotate(360deg);
+    
   }
 }
 
@@ -145,3 +150,37 @@ sup {
   font-size: 30px;
 }
 
+.container-subject {
+  background: #0a0a23;
+  max-width: 850px;
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+.history-img {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 10px 10px 0 0 ;
+}
+
+.container-subject .text-box {
+  color: bisque;
+  margin: 30px 40px;
+}
+
+.sub-btn {
+  background: #d6cd17;
+  padding: 20px 40px;
+  display: block;
+  margin: 15px auto;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
