@@ -55,8 +55,13 @@
   cursor: no-drop;
 }
 
-h3 {
+h2 {
   margin-bottom: 35px;
+  color: coral;
+}
+
+h3 {
+  
 }
 
 #nxt-btn {

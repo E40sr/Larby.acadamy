@@ -42,29 +42,31 @@ const questions = [
   {
     question: 'The following are the states of matter apart from?',
     answers: [
-      {text: "Solid", correct: false},
+      {text: "Gas", correct: false},
       {text: "Liquid", correct: false},
-      {text: "Metal", correct: true},
-      {text: "Gas", correct: false}
+      {text: "Solid", correct: false},
+      {text: "Metal", correct: true}
+      
     ]
     
    },
    {
     question: 'What is temperature scale?',
     answers: [
-      {text: 'Are different ranges of measuring the degree of hottiness or coldness.', correct: true},
       {text: 'Is the degree of hottiness or coldness.', correct: false},
-      {text: 'Is the instrument used to measure temperature.', correct: false},
-      {text: 'Is the point where all morecular motion stops.', correct: false}
+      {text: 'Are different ranges of measuring the degree of hottiness or coldness.', correct: true},
+      {text: 'Is the point where all morecular motion stops.', correct: false},
+      {text: 'Is the instrument used to measure temperature.', correct: false}
+      
     ]
    },
    {
     question: 'Matter is anything that occupies space and has_________?',
     answers: [
-      {text: "Volume", correct: false},
-      {text: "Mass", correct: true},
+      {text: "Volume", correct: false},     
       {text: "Weight", correct: false},
-      {text: "Density", correct: false}
+      {text: "Density", correct: false},
+      {text: "Mass", correct: true}
     ]
     
    },
@@ -99,7 +101,7 @@ const questions = [
     
    },
    {
-    question: 'What happens to the kineic energy of the particle when the temperature of the body is reduced?',
+    question: 'What happens to the kinetic energy of the particle when the temperature of the body is reduced?',
     answers: [
       {text: "Increases", correct: false},
       {text: "Increases then Reduses", correct: false},
@@ -121,9 +123,10 @@ const questions = [
     question: 'Which property makes a gas to be suitable for use in inflating a football?',
     answers: [
       {text: "Takes the shape of container", correct: false},
+      {text: "Move random", correct: true},
       {text: "Can flow", correct: false},
-      {text: "Intermolecular forces are weak", correct: false},
-      {text: "Move random", correct: true}
+      {text: "Intermolecular forces are weak", correct: false}
+      
     ]
     
    },
@@ -131,8 +134,9 @@ const questions = [
     question: 'The following are the factors that affect gas pressure, except?',
     answers: [
       {text: "Number of particles", correct: false},
+      {text: "Ability to flow", correct: true},
       {text: "Temperature of the gas", correct: false},
-      {text: "Ability to flow", correct: false},
+      
      
     ]
     
@@ -140,10 +144,11 @@ const questions = [
    {
     question: 'What theory states that matter is made up of tiny discrete particles that are continuously in random motion?',
     answers: [
-      {text: "Kinetic", correct: false},
+      ,
       {text: "Gas law", correct: false},
       {text: "Hooker's law", correct: false},
-      {text: "Momentum", correct: true}
+      {text: "Momentum", correct: false},
+      {text: "Kinetic", correct: true}
     ]
     
    }

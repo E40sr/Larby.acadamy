@@ -63,7 +63,10 @@ function selectAnswer(e){
 function showScole(){
   resetState();
   
-  questionElement.innerHTML = `You scoled ${scole} out of ${questions.length}!`;
+  questionElement.innerHTML = `<div>
+  &#9733;
+  <div>
+  You scoled ${scole} out of ${questions.length}!`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
   
