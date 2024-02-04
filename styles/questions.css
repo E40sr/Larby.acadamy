@@ -47,7 +47,7 @@
 
 .btn:hover:not([disabled]) {
   box-shadow: 0 0 2px rgb(128, 26, 0);
-  background: #dcd6d6;
+  /*background: #dcd6d6;*/
   color: #333;
 }
 
