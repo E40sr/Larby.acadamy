@@ -122,8 +122,8 @@ const questions = [
    {
     question: 'Which property makes a gas to be suitable for use in inflating a football?',
     answers: [
-      {text: "Takes the shape of container", correct: false},
-      {text: "Move random", correct: true},
+      {text: "Takes the shape of container", correct: true},
+      {text: "Move random", correct: false},
       {text: "Can flow", correct: false},
       {text: "Intermolecular forces are weak", correct: false}
       
