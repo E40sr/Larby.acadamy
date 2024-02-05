@@ -46,7 +46,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Biology 3",
-    images: "images/cool-science-mural.jpg",
+    images: "images/Cool-science-mural.jpg",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
@@ -57,7 +57,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Agriculture 3",
-    images: "images/agri_3.jpg",
+    images: "images/Agri_3.jpg",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
