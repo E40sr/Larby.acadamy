@@ -2,7 +2,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Physics 3",
-    images: "images/physics3.jpg",
+    images: "images/physics3.JPG",
     text: 
      `
          <P>Start learning Physics</P>
@@ -12,7 +12,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Chemistry 4",
-    images: "images/Chemistry.PNG",
+    images: "images/chemistry4.JPG",
     text:  `<p>Start learning Chemistry IV.</p>
       
       `,
@@ -24,7 +24,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Chemistry 3",
-    images: "images/chemistry3.jpg",
+    images: "images/chemistry3.JPG",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
@@ -35,7 +35,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Biology 4",
-    images: "images/biology4.jpg",
+    images: "images/biology4.JPG",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
@@ -71,7 +71,7 @@ const humanities = [
   {
     course: "Humanity",
     subj: "History",
-    images: "images/History.PNG",
+    images: "images/history1-4.JPG",
     text: `
     <p>Start learning History</P>
     
