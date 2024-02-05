@@ -1,8 +1,8 @@
 const sciences = [
   {
     course: "Science",
-    subj: "Physics 3 & 4",
-    images: "images/Cool-science-mural.jpg",
+    subj: "Physics 3",
+    images: "images/physics3.jpg",
     text: 
      `
          <P>Start learning Physics</P>
@@ -11,7 +11,7 @@ const sciences = [
   },
   {
     course: "Science",
-    subj: "Chemistry",
+    subj: "Chemistry 4",
     images: "images/Chemistry.PNG",
     text:  `<p>Start learning Chemistry IV.</p>
       
@@ -20,6 +20,50 @@ const sciences = [
     <button class='sub-btn' id='subBtn'>Learn</button>
     `
     
+  },
+  {
+    course: "Science",
+    subj: "Chemistry 3",
+    images: "images/chemistry3.jpg",
+    text:  `<p>Start learning Chemistry III.</p>
+      
+      `,
+    button: `
+    <button class='sub-btn' id='subBtn'>Learn</button>
+    `
+  },
+  {
+    course: "Science",
+    subj: "Biology 4",
+    images: "images/biology4.jpg",
+    text:  `<p>Start learning Chemistry III.</p>
+      
+      `,
+    button: `
+    <button class='sub-btn' id='subBtn'>Learn</button>
+    `
+  },
+  {
+    course: "Science",
+    subj: "Biology 3",
+    images: "images/cool-science-mural.jpg",
+    text:  `<p>Start learning Chemistry III.</p>
+      
+      `,
+    button: `
+    <button class='sub-btn' id='subBtn'>Learn</button>
+    `
+  },
+  {
+    course: "Science",
+    subj: "Agriculture 3",
+    images: "images/agri_3.jpg",
+    text:  `<p>Start learning Chemistry III.</p>
+      
+      `,
+    button: `
+    <button class='sub-btn' id='subBtn'>Learn</button>
+    `
   }
 ];
 
