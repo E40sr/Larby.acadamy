@@ -84,7 +84,7 @@ button {
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin-right: 7px;
+  margin-right: 0;
 }
 
 .add-button {
