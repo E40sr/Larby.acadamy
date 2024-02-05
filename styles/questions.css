@@ -51,9 +51,15 @@ body {
 }
 
 .btn:hover:not([disabled]) {
+
   box-shadow: 0 0 4px rgb(128, 26, 0);
   font-size: 16px;
   color: #ffffff;
+
+  box-shadow: 0 0 2px rgb(128, 26, 0);
+  /*background: #dcd6d6;*/
+  color: #333;
+
 }
 
 .btn:disabled {
