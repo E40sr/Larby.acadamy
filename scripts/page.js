@@ -9,7 +9,7 @@ const sciences = [
          `,
     button: `<a href="Physics.html"><button class='sub-btn' id='subBtn'>Learn</button></a>`
   },
-  {
+  { 
     course: "Science",
     subj: "Chemistry 4",
     images: "images/chemistry4.JPG",
