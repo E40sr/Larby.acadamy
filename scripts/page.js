@@ -7,7 +7,7 @@ const sciences = [
      `
          <P>Start learning Physics</P>
          `,
-    button: `<a href="Physics.html"><button class='sub-btn' id='subBtn'>Learn</button></a>`
+    link: `Physics.html`
   },
   { 
     course: "Science",
@@ -46,7 +46,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Biology 3",
-    images: "images/Cool-science-mural.jpg",
+    images: "images/bio-3.JPG",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
@@ -57,7 +57,7 @@ const sciences = [
   {
     course: "Science",
     subj: "Agriculture 3",
-    images: "images/Agri_3.jpg",
+    images: "images/agri-3.JPG",
     text:  `<p>Start learning Chemistry III.</p>
       
       `,
@@ -76,11 +76,11 @@ const humanities = [
     <p>Start learning History</P>
     
     `,
-    button: `
-    <button class='sub-btn' id='subBtn'>Learn</button>
-    `
+    link: `History.html`
   }
 ];
+
+
 
 const questions = [
   {
@@ -193,6 +193,17 @@ const questions = [
       {text: "Hooker's law", correct: false},
       {text: "Momentum", correct: false},
       {text: "Kinetic", correct: true}
+    ]
+    
+   },
+   {
+    question: 'The following are the factors that affect gas pressure, except?',
+    answers: [
+      {text: "Number of particles", correct: false},
+      {text: "Ability to flow", correct: true},
+      {text: "Temperature of the gas", correct: false},
+      
+     
     ]
     
    }

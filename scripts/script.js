@@ -17,7 +17,7 @@ function myFunction(){
     <h3>${subject.subj}</h3>
     ${subject.text}
   </div>
-    ${subject.button}
+  <a href="${subject.link}"><button class='sub-btn' id='subBtn'>Learn</button></a>
   </div>
   `
   

@@ -62,4 +62,13 @@ img {
 
  @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  h1{font-size: 10px;}
+  .loader{
+    width: 70px;
+    height: 70px;
+  }
+   .loader-one {
+    width: 80px;
+    height: 80px;
+   }
  }

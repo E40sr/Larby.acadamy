@@ -4,38 +4,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(253, 253, 253);
     height: 100vh; 
 }
 
 
 .header {
-    background: linear-gradient(27deg, #26c2334d, #a1141443);
+    background: linear-gradient(130deg, #ec0808, #173dd6);
     color: #0A0A23;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
 
     text-align: center;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1rem;
 
     padding: 5px;
     border-bottom: 2px solid #0a0a23;
+
+  
+    color: black;
 }
 
-.header {
-  background: linear-gradient(130deg, #0c64fc71, #e50a0aa3);
-  color: black;
+h1{
+  font-size: 2rem;
 }
 .main-content {
     max-width: 1100px;
-
+    
     display: flex;
     flex-wrap: wrap;
-   /* width: 100%;*/
-
+  
     margin: 20px auto 0;
     padding: 40px;
-    background-color: #fff;
+    background-color: papayawhip;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
@@ -43,7 +48,7 @@ body {
 footer {
     text-align: center;
     padding: 0 5px;
-    background-color: #33333396;
+    background-color: #3333339a;
     color: white;
     position: fixed;
     bottom: 0;
@@ -54,9 +59,9 @@ footer {
 }
 
 .logo {
-  max-width: 30px;
+  max-width: 2rem;
   border-radius: 50%;
-  height: 30px;
+  height: 2rem;
 }
 
 .logo-img {
@@ -172,13 +177,16 @@ sup {
 }
 
 .container-subject {
-  background: #0a0a23;
+  background: #ffffff;
+  background: #0A0A23;
   max-width: 850px;
   width: 300px;
   display: block;
   margin: 65px auto;
   padding-bottom: 15px;
-  border-radius: 15px;
+  border-radius: 7px;
+  border: 1px solid #0A0A23;
+  border-top: 5px solid #0A0A23;
 }
 
 .history-img {
@@ -189,17 +197,19 @@ sup {
 }
 
 .container-subject .text-box {
-  color: bisque;
+  color: rgb(229, 244, 70);
+  text-shadow: 0 0 5px #777782;
   margin: 30px 40px;
 }
 
 .sub-btn {
-  background: #d6cd17;
-  padding: 15px 30px;
+  background: #f1e727;
+  padding: 10px 20px;
   display: block;
   margin: 15px auto;
   font-size: 25px;
   font-weight: 700;
+  border: 5px solid #efe853;
 }
 
 a {

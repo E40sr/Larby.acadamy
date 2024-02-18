@@ -1,5 +1,4 @@
 
-
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('buttons');
 const nextButton = document.getElementById('nxt-btn');
