@@ -46,6 +46,7 @@ body {
   right: 0; 
   display: none;
   z-index: 1;
+  scroll-behavior: smooth;
 }
 
 .form-3 {
@@ -131,7 +132,7 @@ body {
   padding: 10px;
  }
 
- .txt {
+ .txt, .txts {
   background: rgba(255, 239, 213, 0.524);
   border: none;
   width: 20em;

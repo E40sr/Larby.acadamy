@@ -27,8 +27,9 @@ document.querySelector('.js-note').innerHTML = noteHTML
 
 function myFunction(){
   const noteText = document.querySelector('.txt')
+  const noteText2 = document.querySelector('.txts')
 
-  let name = noteText.value;
+  let name = noteText.value || noteText2.value;
 
   let time = Date()
 
@@ -42,9 +43,6 @@ function myFunction(){
   noteText.value = ''
 
   renderNote()
-
-  alert(note)
- 
 
 }
 

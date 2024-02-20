@@ -24,6 +24,7 @@ body {
   background: linear-gradient(130deg, #2bc7d6, rgb(147, 147, 26));
   padding: 5px;
   max-width: 700px;
+  margin: 1em;
   padding-bottom: 5em;
   box-shadow: 2px -3px 5px black,
     -2px 3px 5px #000;
