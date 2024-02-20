@@ -76,7 +76,7 @@ const humanities = [
     <p>Start learning History</P>
     
     `,
-    link: `History.html`
+    link: `History-3.html`
   }
 ];
 
@@ -209,3 +209,53 @@ const questions = [
    }
   
 ];
+
+
+const theYao = [
+  {
+    question: 'Where did the yao migrate from?',
+    answers: [
+      {text: "Zambia", correct: false},
+      {text: "Zulu land", correct: false},
+      {text: "Mozambique", correct: true},
+      {text: "Zambezi river", correct: false}
+     
+    ]
+    
+   },
+  {
+    question: 'The following are the reasons why The Yao left Mozambique, except?',
+    answers: [
+      {text: "There was drought and famine", correct: false},
+      {text: "Portuese oppressions in Movambique", correct: true},
+      {text: "There was internal conflicts among them", correct: false},
+      {text: "The were attacked by the Maravi peaple led by Nafuwa", correct: false}
+     
+    ]
+    
+   },
+   {
+    question: 'The following are the factors that influenced yao choice of  settlement, except?',
+   answers: [
+      {text: "Trade items", correct: false},
+      {text: "Ease communication in the Lake shores", correct: false},
+      {text: "Weakiness of indegenous people", correct: false},
+      {text: "Availability of employment opportunities", correct: true}
+     
+    ]
+    
+   },
+   {
+    question: 'Which group of the yao were famous for their skill in iron-working?',
+    answers: [
+      {text: "Mangochi Yao", correct: false},
+      {text: "Machinga Yao", correct: false},
+      {text: "Masanimga Yao", correct: false},
+      {text: "Chisi Yao", correct: true}
+     
+    ]
+    
+   }
+   
+
+]

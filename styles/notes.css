@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  height: 100vh; 
+  font-weight: 600;
+}
+
+.immigrants {
+  background: rgb(255, 239, 213);
+  margin: 0;
+
+  padding: 2em 5em 1em 2em;
+  max-width: 950px;
+}
+
+.origin {
+  background: wheat;
+  padding: 1em;
+  border: 2px solid black;
+  margin: 3px;
+}
+
+.reason {
+  background-color: rgba(65, 105, 225, 0.705);
+}
+
+.reason, .origin {
+  padding: 1em;
+  border: 2px solid black;
+  margin: 3px;
+}
+
+.take-notes {
+  background: rgb(169, 165, 147);
+  height: 100vh;
+  width: 100%;
+  border: 1px solid yellow;
+  padding: 0;
+  margin: 0;
+  right: 0; 
+  display: none;
+  z-index: 1;
+}
+
+.form-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header{
+  width: 30px;
+  height: 50px;
+  display: none;
+ 
+ }
+
+ #closeBtn {
+  display: none;
+ }
+
+.note {
+  background: rgb(202, 186, 160);
+  height: 100vh;
+  width: 400px;
+  border: 1px solid yellow;
+  padding: 2em;
+  position: fixed;
+  right: 0; 
+  display: block;
+  }
+ 
+
+@media only screen and (max-width: 1280px) {
+  .form-3 {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .take-notes {
+    position: relative;
+    height: 100vh;
+   
+    width: 100%;
+    margin: 0;
+    display: none;
+
+    z-index: 2;
+  }
+
+  
+  .immigrants {
+    max-width: 100%;
+    padding: 1.5em;
+    margin-top: 50px;
+  } 
+  
+  .header {
+    position: fixed;
+    background: #333;
+    border-bottom: 2px solid black;
+    position: fixed;
+    
+    width:  100%;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+  }
+
+  #closeBtn {
+    display: block;
+   }
+  
+  
+ 
+ }
+
+  .content {
+  margin: 2em;
+ }
+
+ input {
+  padding: 10px;
+ }
+
+ .txt {
+  background: rgba(255, 239, 213, 0.524);
+  border: none;
+  width: 20em;
+  border-radius: 4px;
+  box-shadow: 0 0 5px;
+ }
+
+ .nooo {
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 2px 3px #000000;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+ }
+
+ .js-note, .js-notes {
+  background: #333;
+  padding: 2em;
+ }

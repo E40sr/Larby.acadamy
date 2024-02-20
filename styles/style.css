@@ -53,6 +53,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
 .para{
   padding-bottom: 10px;
