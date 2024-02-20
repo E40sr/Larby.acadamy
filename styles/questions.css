@@ -20,11 +20,11 @@ body {
   padding: 280px 0;
 }
 
-.quize {
+.quize{
   background: linear-gradient(130deg, #2bc7d6, rgb(147, 147, 26));
-  padding: 10px;
+  padding: 5px;
   max-width: 700px;
-  width: 60%;
+  padding-bottom: 5em;
   box-shadow: 2px -3px 5px black,
     -2px 3px 5px #000;
   border-radius: 10px;
