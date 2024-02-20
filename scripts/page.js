@@ -255,6 +255,27 @@ const theYao = [
      
     ]
     
+   },
+   {
+    question: 'Which of the following are the chiefs of Mangochi Yao?',
+    answers: [
+      
+      {text: "Mkata, Mponda, Jalasi, Liwonde", correct: false},
+      {text: "Mataka, Makanjira", correct: false},
+      {text: "Kapeni, Chikowi, Makata,Tambala, Mkanda", correct: true}
+    ]
+    
+   },
+   {
+    question: 'The Yao society was _________ in nature.',
+    answers: [
+      {text: "Matrilineal", correct: true},
+      {text: "Communism", correct: false},
+      {text: "Democratic", correct: false},
+      {text: "Dictatorship", correct: false}
+     
+    ]
+    
    }
    
 

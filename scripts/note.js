@@ -16,7 +16,7 @@ for (let i = 0; i < note.length; i++) {
   </div>
   <div class='nooo'> ${name}</div>
   <button onclick="note.splice(${i}, 1)
-  renderNote()"> del </button>
+  renderNote()" class='del-btn'> Del </button>
   `
   noteHTML += html
   }
@@ -41,6 +41,7 @@ function myFunction(){
   note.push({name, createdDate})
 
   noteText.value = ''
+  noteText2.value = ''
 
   renderNote()
 

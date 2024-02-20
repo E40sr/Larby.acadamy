@@ -46,7 +46,6 @@ body {
   right: 0; 
   display: none;
   z-index: 1;
-  scroll-behavior: smooth;
 }
 
 .form-3 {
@@ -63,7 +62,19 @@ body {
 
  #closeBtn {
   display: none;
+  background: transparent;
+
+  border: none;
+  margin: .5rem;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+
+  text-shadow: 1px 0 blue;
  }
+
+
 
 .note {
   background: rgb(202, 186, 160);
@@ -85,7 +96,7 @@ body {
   }
   .take-notes {
     position: relative;
-    height: 100vh;
+
    
     width: 100%;
     margin: 0;
@@ -151,4 +162,45 @@ body {
  .js-note, .js-notes {
   background: #333;
   padding: 2em;
+  margin-top: 1em;
+  text-shadow: 1px 1px #ffffff9d;
+  border-radius: 5px;
  }
+
+ .pop, .add-button {
+  margin: 0.9em 1em;
+  background: transparent;
+  border: none;
+  color: white;
+
+  box-shadow: 0 0 3px papayawhip;
+  padding: 5px;
+  font-weight: 700;
+
+  border-radius: 5px;
+ }
+ 
+ .del-btn {
+  margin: 0.9em 1em;
+  background: rgba(255, 0, 0, 0.507);
+  border: none;
+  color: white;
+
+  box-shadow: 1px 2px 2px rgb(47, 255, 0),
+              -1px -2px 2px rgb(13, 0, 255);
+  padding: 5px 10px;
+  font-weight: 700;
+
+  border-radius: 5px;
+ }
+
+ .quiz-link {
+  text-decoration: none; 
+  padding: 10px;
+  border: 2px solid black;
+  margin: 1em;
+  background: rgb(20, 122, 20);
+  color: darkgrey;
+  text-shadow: 1px 1px blue;
+ }
+
